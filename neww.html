@@ -24,15 +24,35 @@
     .head
     {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-start;
         align-items: flex-start;
+        width: 100%;
+        overflow-x: hidden;
+
     }
     h1
     {
         margin: 0;
         padding: 0;
-        background-color: blanchedalmond;
         font-size: 1.3rem;
+        white-space: nowrap;
+    }
+    .head i{
+        padding-right: 2rem;
+    }
+    a{
+        width: 10rem;
+        padding: .5rem;
+        background-color: #000;
+        color: azure;
+        border-radius: 3px;
+        border: none;
+    }
+    a:hover, a:focus
+    {
+        background-color: blueviolet;
     }
 </style>
 </head>
@@ -44,6 +64,9 @@
                 <h1>Lorem, ipsum dolor.</h1>
             </head>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias dicta hic quidem expedita quibusdam, repellat dolorum debitis quaerat aspernatur commodi dolore soluta sed corporis molestiae ex tempore asperiores a.</p>
+        <button>
+            read more<i class="fa-solid fa-arrow-right"></i>
+        </button>
         </div>
         <div class="card">
             <head>
@@ -51,6 +74,9 @@
                 <h1>Quas, aliquam nulla!</h1>
             </head>
             <p>Harum id architecto ipsum blanditiis sequi, commodi iure ducimus, necessitatibus quod quibusdam rem ipsam inventore, saepe sunt deserunt! Natus quod voluptates suscipit ducimus sit. Ex ipsum temporibus sed aspernatur quia.</p>
+            <button>
+                read more<i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
         <div class="card">
             <head>
@@ -58,6 +84,9 @@
                 <h1>Repellat, iste libero!</h1>
             </head>
             <p>Beatae ipsum sint itaque unde blanditiis voluptatibus illo nulla nostrum! Facilis nisi assumenda obcaecati dolorem animi odit, non quam ipsam maxime, esse accusamus odio eveniet, id ad voluptatum repellendus quae!</p>
+            <button>
+                read more<i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
         <div class="card">
             <head>
@@ -65,12 +94,18 @@
                 <h1>Aliquam, repellendus autem.</h1>
             </head>
             <p>Voluptate nemo dolore, tempore beatae praesentium excepturi in unde ipsum aliquam reprehenderit quo. In laborum, ipsum, quo amet minima officiis necessitatibus officia magnam nisi a autem explicabo nulla enim consectetur?</p>
+            <button>
+                read more<i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
         <div class="card">
              <a href="#"><i class=" fa fa-user"></i></a>   
             <h1>Ullam, delectus numquam.</h1>
             </head>
             <p>Sapiente nisi aliquam cupiditate minima blanditiis porro repellat distinctio necessitatibus deleniti voluptate fugiat beatae omnis rem eum, ex, odio natus non quidem laboriosam velit reiciendis consequuntur architecto ratione. Dignissimos, repudiandae?</p>
+            <button>
+                read more<i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
         <div class="card">
             <head>
@@ -78,6 +113,9 @@
                 <h1>Quasi, impedit ullam?</h1>
             </head>
             <p>Autem, atque. Facere praesentium, laborum id, doloremque veniam iusto alias distinctio deleniti ipsa numquam ab magnam deserunt eius hic minus illum molestias rerum mollitia quo esse libero dolor a? Quaerat?</p>
+            <button>
+                read more<i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
         <div class="card">
             <head>
@@ -85,6 +123,9 @@
                 <h1>Hic, autem minima.</h1>
             </head>
             <p>Obcaecati quibusdam consequuntur iusto minus quia reprehenderit? Similique excepturi eveniet cum at quas, blanditiis nam quae nulla doloremque doloribus culpa impedit repellat incidunt dolore cumque debitis, dignissimos aut quis consequuntur.</p>
+            <button>
+                read more<i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
         <div class="card">
             <head>
@@ -92,6 +133,9 @@
                 <h1>Accusamus, reiciendis sus</h1>
             </head>
             <p>Ad, distinctio ex nisi saepe labore reiciendis aperiam explicabo, commodi cum aut voluptatum! Obcaecati, velit fugit! Labore earum placeat quam itaque necessitatibus facilis dolor eum libero optio. Quasi, voluptates accusamus.</p>
+            <button>
+                read more<i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
         <div class="card">
             <head>
@@ -99,6 +143,9 @@
                 <h1>Blanditiis, dolores fuga!</h1>
             </head>
             <p>Consectetur, culpa voluptatem! Odit debitis odio voluptas magnam architecto. Nemo sit eligendi saepe tempore quo magnam? Iste error sed ex animi, consequuntur itaque, velit magni delectus praesentium commodi blanditiis nostrum.</p>
+            <button>
+                read more<i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
     </div>
 </body>
